@@ -13,10 +13,6 @@ int main()
 	char line[MAXLINE], longestLine[MAXLINE];
 
 	while ((len = getline(line, MAXLINE)) > 0) {
-		printf("%s", line);
-		if (len >= MAXLINE)
-			printf("(…)\n");
-
 		if (len > longestLen) {
 			longestLen = len;
 			copy(longestLine, line);
