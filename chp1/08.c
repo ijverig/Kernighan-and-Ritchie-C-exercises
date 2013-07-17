@@ -6,7 +6,7 @@ int main ()
 {
 	int c, nw;
 	
-	for (nw = 0; (c = getchar()) != EOF; nw += c == '\t' || c == '\n' || c == ' ' ? 1 : 0);
+	for (nw = 0; (c = getchar()) != EOF; nw += c == '\t' || c == '\n' || c == ' ');
 	
 	printf("%d white chars", nw);
 		
