@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* file copying */
+/* incorrect evaluation (parenthesis omitted) */
 
 int main()
 {
