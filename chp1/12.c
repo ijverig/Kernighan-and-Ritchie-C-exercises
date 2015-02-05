@@ -8,7 +8,7 @@
 int main()
 {
 	int c, atWord = FALSE;
-
+	
 	while ((c = getchar()) != EOF)
 		if (c == '\t' || c == ' ' || c == '\n') {
 			if (atWord) {
@@ -21,7 +21,6 @@ int main()
 				atWord = TRUE;
 			putchar(c);
 		}
-
-  return 0;
+	
+	return 0;
 }
-
