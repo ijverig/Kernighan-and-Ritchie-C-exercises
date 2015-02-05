@@ -2,7 +2,7 @@
 
 /* file copying */
 
-int main ()
+int main()
 {
 	int c;
 	

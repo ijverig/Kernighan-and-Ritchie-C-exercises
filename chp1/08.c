@@ -2,7 +2,7 @@
 
 /* count white chars */
 
-int main ()
+int main()
 {
 	int c, nw;
 	

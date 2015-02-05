@@ -2,10 +2,10 @@
 
 /* escape chars */
 
-int main ()
+int main()
 {
-	printf ("\aHello,,\rHi, ");
-	printf ("World!");
+	printf("\aHello,,\rHi, ");
+	printf("World!");
 	
 	return 0;
 }

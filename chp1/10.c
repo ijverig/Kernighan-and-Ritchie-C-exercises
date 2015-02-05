@@ -2,7 +2,7 @@
 
 /* replace non-visual chars */
 
-int main ()
+int main()
 {
 	int c;
 	

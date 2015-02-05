@@ -8,14 +8,14 @@
 
 float fahr2celsius(float fahr);
 
-int main ()
+int main()
 {
 	float fahr;
 	
-	printf (" F \t  C  \n");
-	printf ("---\t-----\n");
+	printf(" F \t  C  \n");
+	printf("---\t-----\n");
 	for (fahr = UPPER; fahr >= LOWER; fahr = fahr - STEP)
-		printf ("%3.0f\t%5.1f\n", fahr, fahr2celsius(fahr));
+		printf("%3.0f\t%5.1f\n", fahr, fahr2celsius(fahr));
 	
 	return 0;
 }

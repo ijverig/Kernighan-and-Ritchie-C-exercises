@@ -2,7 +2,7 @@
 
 /* Fahrenheit to Celsius table */
 
-int main ()
+int main()
 {
 	float fahr, celsius;
 	int start, end, step;
@@ -11,12 +11,12 @@ int main ()
 	end   = 300;
 	step  = 20;
 	
-	printf (" F \t  C  \n");
-	printf ("---\t-----\n");
+	printf(" F \t  C  \n");
+	printf("---\t-----\n");
 	fahr = start;
 	while (fahr <= end) {
 		celsius = 5.0/9.0 * (fahr - 32.0);
-		printf ("%3.0f\t%5.1f\n", fahr, celsius);
+		printf("%3.0f\t%5.1f\n", fahr, celsius);
 		fahr = fahr + step;
 	}
 	

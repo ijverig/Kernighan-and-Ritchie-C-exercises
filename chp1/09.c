@@ -2,7 +2,7 @@
 
 /* remove multiple spaces */
 
-int main ()
+int main()
 {
 	int c;
 	

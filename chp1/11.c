@@ -5,7 +5,7 @@
 #define TRUE  1
 #define FALSE !TRUE
 
-int main ()
+int main()
 {
   int c, nl = 0, nc = 0, nw = 0, atWord = FALSE;
 

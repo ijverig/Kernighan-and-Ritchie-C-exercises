@@ -2,7 +2,7 @@
 
 /* EOF value */
 
-int main ()
+int main()
 {
 	printf("EOF = %d", EOF);
 		
