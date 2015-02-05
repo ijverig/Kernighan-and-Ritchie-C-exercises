@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sys.h>
+#include <stdlib.h>
 
 /* loading animation */
 
