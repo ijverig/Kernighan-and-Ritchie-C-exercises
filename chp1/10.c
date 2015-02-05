@@ -6,7 +6,7 @@ int main ()
 {
 	int c;
 	
-	while ((c = getchar()) != EOF) {
+	while ((c = getchar()) != EOF)
 		switch (c) {
 			case '\t':
 				putchar('\\');
@@ -23,7 +23,6 @@ int main ()
 			default:
 				putchar(c);
 		}
-	}
 	
 	return 0;
 }

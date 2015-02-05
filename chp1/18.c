@@ -12,11 +12,10 @@ int main()
 	int len;
 	char line[MAXLINE];
 
-	while ((len = getline(line, MAXLINE)) > 0) {
+	while ((len = getline(line, MAXLINE)) > 0)
 		if (strip(line, len))
 			printf("%s\n", line);
-	}
-
+	
 	return 0;
 }
 

@@ -12,12 +12,11 @@ int main()
 	int len, longestLen = 0;
 	char line[MAXLINE], longestLine[MAXLINE];
 
-	while ((len = getline(line, MAXLINE)) > 0) {
+	while ((len = getline(line, MAXLINE)) > 0)
 		if (len > longestLen) {
 			longestLen = len;
 			copy(longestLine, line);
 		}
-	}
 
 	if (longestLen > 0) {
 		printf("%d\n", longestLen);
